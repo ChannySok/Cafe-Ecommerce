@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout";
-import HomePage from "./pages/HomePage";
-import Menu from "./pages/Menu";
-import NotFound from "./pages/NotFound";
-import OrderForm from "./sections/OrderForm";
-import OurDrinks from "./sections/OurDrinks";
-import OurFoods from "./Sections/OurFoods";
-import OurSnacks from "./sections/OurSnacks";
-import Receipt from "./sections/Receipt";
+import Layout from "./components/Layout.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import Menu from "./pages/Menu.jsx";
+import NotFound from "./pages/NotFound.jsx";
+import OrderForm from "./sections/OrderForm.jsx";
+import OurDrinks from "./sections/OurDrinks.jsx";
+import OurFoods from "./Sections/OurFoods.jsx";
+import OurSnacks from "./sections/OurSnacks.jsx";
+import Receipt from "./sections/Receipt.jsx";
 
 const App = () => {
   const [cart, setCart] = useState([]);
