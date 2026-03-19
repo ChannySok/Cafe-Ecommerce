@@ -4,11 +4,11 @@ import Layout from "./components/Layout.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import Menu from "./pages/Menu.jsx";
 import NotFound from "./pages/NotFound.jsx";
-import OrderForm from "./sections/OrderForm.jsx";
-import OurDrinks from "./sections/OurDrinks.jsx";
+import OrderForm from "./Sections/OrderForm.jsx";
+import OurDrinks from "./Sections/OurDrinks.jsx";
 import OurFoods from "./Sections/OurFoods.jsx";
-import OurSnacks from "./sections/OurSnacks.jsx";
-import Receipt from "./sections/Receipt.jsx";
+import OurSnacks from "./Sections/OurSnacks.jsx";
+import Receipt from "./Sections/Receipt.jsx";
 
 const App = () => {
   const [cart, setCart] = useState([]);

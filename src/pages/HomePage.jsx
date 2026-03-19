@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Contact from "../sections/Contact";
-import Footer from "../sections/Footer";
-import HeroSection from "../sections/HeroSection";
-import OurStory from "../sections/OurStory";
-import Menu from "./Menu";
+import Contact from "../Sections/Contact.jsx";
+import Footer from "../Sections/Footer.jsx";
+import HeroSection from "../Sections/HeroSection.jsx";
+import OurStory from "../Sections/OurStory.jsx";
+import Menu from "./Menu.jsx";
 
 const HomePage = ({ darkMode }) => {
   const location = useLocation();
